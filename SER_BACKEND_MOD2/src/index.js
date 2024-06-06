@@ -1,7 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const app = express();
-const port = 3000;
+const port = 3001;
 const routes = require("./api/endPoints");
 const cors = require("cors");
 const { initDB } = require("./models/db");
